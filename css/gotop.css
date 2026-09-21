@@ -1,0 +1,18 @@
+.gotop {
+	width: 40px;
+	height: 40px;
+	background-color:#441873;
+	position: fixed;
+	bottom: 0px;
+	right: 0;
+	z-index: 99999;
+	display: none;
+	text-align: center;
+	line-height: 45px;
+	border-radius: 5px;
+}
+
+.gotop img {
+	width: 80%;
+	height: 90%;
+}

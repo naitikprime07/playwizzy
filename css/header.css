@@ -1,0 +1,161 @@
+header {
+	width: 100%;
+	height: 85px;
+	background: #000;
+	background-size: auto 100%;
+	z-index: 999999999999;
+	background-position-x: 33%;
+	/* box-shadow: 0 3px 8px rgba(0,0,0,.24); */
+}
+
+.header {
+	width: 100%;
+	max-width: 1560px;
+	margin: auto;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 20px;
+}
+
+.left {
+	width: auto;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+
+
+.center {
+	height: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex: 1;
+	padding: 0px 30px;
+}
+
+.centerLi {
+	width: auto;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	text-transform: uppercase;
+	/* font-weight: 600; */
+	font-size: 14px;
+	padding: 0px 20px;
+	cursor: pointer;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	font-size: 13px;
+	color: #fff;
+	padding: 6px 21px;
+	border-radius: 16px;
+	/* background: rgba(0,0,0,.14); */
+	/* border: 3px solid rgba(0,0,0,.14); */
+	transition: all .3s;
+	margin-right: 10px;
+	font-weight: 600;
+}
+
+.centerLi img {
+	/* height: 100%; */
+	margin-right: 10px;
+}
+
+.right {
+	width: 10%;
+	height: 100%;
+	display: none;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.search,
+.menu {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	padding: 8px;
+	/* border: 2px solid #fff; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+
+
+.menu {
+	margin-right: 20px;
+	display: none;
+	position: absolute;
+	left: 8px;
+}
+
+.menu img {
+	width: 30px;
+	height: 30px;
+}
+
+.search img {
+	width: 28px;
+	height: 28px;
+}
+
+.left img {
+	width: auto;
+	height: 50px;
+}
+
+@media screen and (max-width:960px) {
+	header {
+		height: 60px;
+	}
+
+	.left img {
+		position: absolute;
+		width: auto;
+		height: 50px;
+		left: 0px;
+		right: 0px;
+		margin: auto;
+	}
+
+	.header {
+		width: 100%;
+	}
+
+	.right {
+		display: flex;
+	}
+
+	.menu {
+		display: flex;
+	}
+
+	.center {
+		width: 100%;
+		position: absolute;
+		top: 60px;
+		left: -100vw;
+		height: 100vh;
+		flex-wrap: wrap;
+		align-content: flex-start;
+		background-color: #000;
+		z-index: 99999;
+		transition: all 0.5s;
+		padding: 0px;
+	}
+
+	.centerLi {
+		width: 90%;
+		margin: 10px auto 0;
+		height: 50px;
+		border-bottom: 1px dashed;
+	}
+}

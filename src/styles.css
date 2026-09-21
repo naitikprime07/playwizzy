@@ -1,0 +1,85 @@
+@import '../css/swiper-bundle.min.css';
+@import '../css/banner.css';
+@import '../css/lazy.css';
+@import '../css/search.css';
+@import '../css/menu.css';
+@import '../css/gotop.css';
+@import '../css/ystk.css';
+@import '../css/ad.css';
+@import '../css/base.css';
+@import '../css/header.css';
+@import '../css/footer.css';
+@import '../css/list.css';
+@import '../css/searcPage.css';
+@import '../css/style-dev.css';
+@import '../css/game.css';
+
+.center.mobile-open {
+    left: 0;
+}
+
+.searchBox.mobile-search-open {
+    display: flex;
+}
+
+@media screen and (min-width: 961px) and (max-width: 1599px) {
+    .right {
+        display: flex;
+    }
+}
+
+.listing-page {
+    width: 100%;
+    max-width: 1300px;
+    min-height: 80vh;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.listing-page .loading {
+    display: none;
+}
+
+.game-page {
+    width: 1300px;
+}
+
+.iframe-page {
+    width: 100vw;
+    height: 100vh;
+    background: #000;
+    overflow: hidden;
+}
+
+.ifamerCon,
+.ifamerCon iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.mobile-logo {
+    width: 60px;
+    height: 45px;
+    position: fixed;
+    top: 10%;
+    left: 0;
+    z-index: 1000;
+    background: #fff;
+    border-radius: 0 45px 45px 0;
+    padding-left: 7px;
+    box-sizing: border-box;
+    box-shadow: 0 0 15px rgba(111, 111, 111, .5);
+    cursor: pointer;
+}
+
+.mobile-logo img {
+    width: 41px;
+    height: 41px;
+}
+
+@media screen and (max-width: 960px) {
+    .game-page {
+        width: 100%;
+    }
+}

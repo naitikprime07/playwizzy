@@ -1,0 +1,89 @@
+footer {
+	margin-top: 2rem;
+	position: relative;
+	border-top: 8px solid #1a82a3;
+	background: rgba(10, 87, 112, .6);
+	color: #fff;
+	padding: 0.8rem 3rem;
+	display: flex;
+	justify-content: center;
+}
+
+.footerBox {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+}
+
+footer a {
+	color: #fff;
+	margin: 0px 15px;
+	border: 2px solid;
+	padding: 0px 5px;
+	display: flex;
+	align-items: center;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.footerBox div {
+	width: 100%;
+	margin-top: 10px;
+}
+
+/* footer {
+    position: relative;
+    color: #fff;
+    padding: 0.8rem 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+footer a{
+	color: #fff;
+	margin-left: 15px;
+}
+
+
+.footerBox{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:center;
+	align-items: center;
+	padding: 0 50px;
+} */
+
+@media screen and (max-width:960px) {
+	footer {
+		padding: 10px;
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		height: auto;
+		/* background-color: #cdc1b5; */
+		font-size: 14px;
+		font-weight: 600;
+	}
+
+	.footerBox {
+		flex-wrap: wrap;
+		padding: 0;
+	}
+
+	footer a {
+		font-size: 14px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.footerBox div {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}
